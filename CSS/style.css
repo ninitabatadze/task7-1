@@ -1,0 +1,1082 @@
+    *{ box-sizing: border-box; } 
+     @font-face { font-family:"FiraGo"; 
+    src: url(../FONT/FiraGO-Regular.woff); } 
+    body{ 
+    background-color: #FFFFFF;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0;
+     }
+    #container{ 
+    width: 1223px;
+    max-width: 100%; 
+    margin:auto; 
+    } 
+    #main{ 
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px; 
+    height: 65px; 
+    background: #FFFFFF; 
+    border: 1px solid #EDEDED; 
+    } 
+    h1{ font-family:"FiraGo" 
+    } 
+    .box{ 
+    width:300px; 
+    border-collapse: collapse; 
+    } 
+    .n1{ 
+    position: absolute;
+    font-family:"FiraGo";
+    font-style: normal;
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 19px; 
+    color: #000000; 
+    left: 104px; top: 112px;
+    } 
+    .e1{ 
+    position: absolute; 
+    font-family:"FiraGo"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 19px;
+    color: #000000;
+    left: 540px; 
+    top: 112px;
+    }
+    .m1{
+    position: absolute; 
+    font-family:"FiraGo"; 
+    font-family: 'FiraGO'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 19px; 
+    color: #000000; 
+    left: 862px; 
+    top:112px;
+    } 
+    .a1 { 
+    position: absolute; 
+    font-family:"FiraGo"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 19px;
+    color: #000000; 
+    left: 1170px; 
+    top: 112px;
+    } 
+    .box-1{ 
+    position: absolute;
+    width: 1223px; 
+    height: 84px; 
+    margin:auto; 
+    top: 152px; 
+    background: #FAFAFA; 
+    border: 1px solid #EDEDED;
+    } 
+    #name{ position: absolute;
+    width: 359px;
+    height: 50px; 
+    background: #FFFFFF; 
+    border: 1px solid #ECECEC; 
+    border-radius: 10px; 
+    } 
+    tr>td:nth-child(1){ 
+    padding-left: 40px; 
+    padding-bottom: 50px; 
+    } 
+    .name1::placeholder{ 
+    position: absolute; 
+    padding-left: 10px; 
+    padding-top: 15px; 
+    font-family:"FiraGo"; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 19px; 
+    color: #E8E8E8;
+    } 
+    #email{ 
+    position: absolute;
+    width: 266px; 
+    height: 50px; 
+    background: #FFFFFF; 
+    border: 1px solid #ECECEC; 
+    border-radius: 10px;
+    }
+    tr>td:nth-child(2){ 
+    padding-left:340px;
+    padding-bottom:50px;
+    } 
+    .email1::placeholder{ 
+    padding-left: 10px; 
+    padding-top: 15px; 
+    font-family: 'FiraGO'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 19px; 
+    color: #E8E8E8; 
+    }
+    #mobile{ 
+    padding-left: 20px; 
+    padding: 15px; 
+    left: 795px;
+    top: 17px; 
+    position: absolute; 
+    width: 217px; 
+    height: 50px; 
+    background: #FFFFFF; 
+    border: 1px solid #ECECEC; 
+    border-radius: 10px;
+    } 
+    .mobile1::placeholder{ 
+    font-family: 'FiraGO'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 19px; 
+    color: #E8E8E8;
+    } 
+    #search1{ 
+    position: absolute;
+    background: #FFDD04; 
+    border-radius: 10px; 
+    left: 1058px; 
+    top: 15px; 
+    border: none; 
+    width: 141px; 
+    height: 50px;
+    cursor: pointer;
+    font-family: 'FiraGO'; 
+    font-style: normal; 
+    font-weight: bold; 
+    font-size: 15px; 
+    color: #000000;
+    } 
+    .user_list{ 
+    position: absolute; 
+    width: 106px; 
+    height: 24px; 
+    left:67px; 
+    top: 285px; 
+    font-family: 'FiraGO'; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 24px; 
+    line-height: 29px; 
+    color: #000000;
+    } 
+    .create_button{ 
+    font-weight: bold;
+    cursor: pointer; 
+    border: none; 
+    position: absolute; 
+    width: 141px; 
+    height: 40px; 
+    left: 1145px; 
+    top: 300px; 
+    background: #FFDD04; 
+    border-radius: 10px;
+    }
+    .table-1{
+    position: absolute;
+    top: 362px;
+    left: 63px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    width: 1223px;
+    }
+    .head1{
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    }
+    .n2{
+    position: absolute;
+    left: 45px;
+    top: 20px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;  
+    }
+    .e2{
+    position: absolute;
+    left: 215px;
+    top: 20px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;  
+    }
+    .m2{
+    position: absolute;
+    left: 395px;
+    top: 20px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;  
+    }
+    .c2{
+    position: absolute;
+    left: 590px;
+    top: 20px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;   
+    }
+    .u2{
+    position: absolute;
+    left: 825px;
+    top: 20px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;  
+    }
+    .a2{
+    position: absolute;
+    left: 1075px;
+    top: 20px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;  
+    }
+    .tbody{
+    position: absolute;
+    width: 1223px;
+    height: 65px;
+    left: -1px;
+    top: 62px;
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+    }
+    .monkey{
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    left: 134px;
+    top: 444px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; 
+    }
+    .tbody1{
+    position: absolute;
+    width: 1223px;
+    height: 65px;
+    margin: auto;
+    top: 63px;
+    left:-1px;
+    background: #FAFAFA;
+    border: 1px solid #EDEDED;
+    }
+    #monkey1{
+    position: absolute;
+    left:5px;
+    top: 20px;
+    font-family: "FiraGO";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;    
+    }
+    #Emonkey1{
+    position: absolute;
+    left: -125px;
+    top: 20px;
+    font-family:"FiraGO";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;    
+    }
+    #Mobile1{
+    position: absolute;
+    left:393px;
+    top: 20px;
+    font-family:"FiraGO";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    }
+    #Created1{
+    position: absolute;
+    left:591px;
+    top:20px;
+    font-family:"FiraGO";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    }
+    #Updated1{
+    position: absolute;
+    left: 825px;
+    top: 20px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;    
+    }
+   
+    #delete1{
+        font-weight: bold;
+        border: none;
+        position: absolute;
+        width: 93px;
+        height: 33px;
+        left:997px;
+        top:15px;
+        background: #FF8271;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    #edit1{
+        font-weight: bold;
+        border: none;
+        position: absolute;
+        width: 93px;
+        height: 33px;
+        left: 1100px;
+        top:15px;
+        background: #FFDD04;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .tbody2{
+        position: absolute;
+        width: 1223px;
+        height: 65px;
+        margin: auto;
+        top: 127px;
+        left:-1px;
+        background: #FAFAFA;
+        border: 1px solid #EDEDED;
+        }
+        #monkey2{
+        position: absolute;
+        left:5px;
+        top: 20px;
+        font-family: "FiraGO";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;    
+        }
+        #Emonkey2{
+        position: absolute;
+        left: -125px;
+        top: 20px;
+        font-family:"FiraGO";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;    
+        }
+        #Mobile2{
+        position: absolute;
+        left:393px;
+        top: 20px;
+        font-family:"FiraGO";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        }
+        #Created2{
+        position: absolute;
+        left:591px;
+        top:20px;
+        font-family:"FiraGO";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        }
+        #Updated2{
+        position: absolute;
+        left: 825px;
+        top: 20px;
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000000;    
+        }
+       
+        #delete2{
+            font-weight: bold;
+            border: none;
+            position: absolute;
+            width: 93px;
+            height: 33px;
+            left:997px;
+            top:15px;
+            background: #FF8271;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        #edit2{
+            font-weight: bold;
+            border: none;
+            position: absolute;
+            width: 93px;
+            height: 33px;
+            left: 1100px;
+            top:15px;
+            background: #FFDD04;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        
+        .tbody3{
+            position: absolute;
+            width: 1223px;
+            height: 65px;
+            top: 190px;
+            left:-1px;
+            background: #FAFAFA;
+            border: 1px solid #EDEDED;
+            }
+            #monkey3{
+            position: absolute;
+            left:5px;
+            top: 20px;
+            font-family: "FiraGO";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;    
+            }
+            #Emonkey3{
+            position: absolute;
+            left: -125px;
+            top: 20px;
+            font-family:"FiraGO";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;    
+            }
+            #Mobile3{
+            position: absolute;
+            left:393px;
+            top: 20px;
+            font-family:"FiraGO";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            }
+            #Created3{
+            position: absolute;
+            left:591px;
+            top:20px;
+            font-family:"FiraGO";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            }
+            #Updated3{
+            position: absolute;
+            left: 825px;
+            top: 20px;
+            font-family: 'FiraGO';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            color: #000000;    
+            }
+           
+            #delete3{
+                font-weight: bold;
+                border: none;
+                position: absolute;
+                width: 93px;
+                height: 33px;
+                left:997px;
+                top:15px;
+                background: #FF8271;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+            #edit3{
+                font-weight: bold;
+                border: none;
+                position: absolute;
+                width: 93px;
+                height: 33px;
+                left: 1100px;
+                top:15px;
+                background: #FFDD04;
+                cursor: pointer;
+                border-radius: 10px;
+            }
+   
+            .tbody3{
+                position: absolute;
+                width: 1223px;
+                height: 65px;
+                top: 190px;
+                left:-1px;
+                background: #FAFAFA;
+                border: 1px solid #EDEDED;
+                }
+                #monkey3{
+                position: absolute;
+                left:5px;
+                top: 20px;
+                font-family: "FiraGO";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;    
+                }
+                #Emonkey3{
+                position: absolute;
+                left: -125px;
+                top: 20px;
+                font-family:"FiraGO";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;    
+                }
+                #Mobile3{
+                position: absolute;
+                left:393px;
+                top: 20px;
+                font-family:"FiraGO";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                }
+                #Created3{
+                position: absolute;
+                left:591px;
+                top:20px;
+                font-family:"FiraGO";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000000;
+                }
+                #Updated3{
+                position: absolute;
+                left: 825px;
+                top: 20px;
+                font-family: 'FiraGO';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #000000;    
+                }
+               
+                #delete3{
+                    font-weight: bold;
+                    border: none;
+                    position: absolute;
+                    width: 93px;
+                    height: 33px;
+                    left:997px;
+                    top:15px;
+                    background: #FF8271;
+                    cursor: pointer;
+                    border-radius: 10px;
+                }
+                #edit3{
+                    font-weight: bold;
+                    border: none;
+                    position: absolute;
+                    width: 93px;
+                    height: 33px;
+                    left: 1100px;
+                    top:15px;
+                    background: #FFDD04;
+                    cursor: pointer;
+                    border-radius: 10px;
+                }           
+                .tbody4{
+                    position: absolute;
+                    width: 1223px;
+                    height: 65px;
+                    top: 254px;
+                    left:-1px;
+                    background: #FAFAFA;
+                    border: 1px solid #EDEDED;
+                    }
+                    #monkey4{
+                    position: absolute;
+                    left:5px;
+                    top: 20px;
+                    font-family: "FiraGO";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;    
+                    }
+                    #Emonkey4{
+                    position: absolute;
+                    left: -125px;
+                    top: 20px;
+                    font-family:"FiraGO";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;    
+                    }
+                    #Mobile4{
+                    position: absolute;
+                    left:393px;
+                    top: 20px;
+                    font-family:"FiraGO";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                    }
+                    #Created4{
+                    position: absolute;
+                    left:591px;
+                    top:20px;
+                    font-family:"FiraGO";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #000000;
+                    }
+                    #Updated4{
+                    position: absolute;
+                    left: 825px;
+                    top: 20px;
+                    font-family: 'FiraGO';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #000000;    
+                    }
+                   
+                    #delete4{
+                        font-weight: bold;
+                        border: none;
+                        position: absolute;
+                        width: 93px;
+                        height: 33px;
+                        left:997px;
+                        top:15px;
+                        background: #FF8271;
+                        cursor: pointer;
+                        border-radius: 10px;
+                    }
+                    #edit4{
+                        font-weight: bold;
+                        border: none;
+                        position: absolute;
+                        width: 93px;
+                        height: 33px;
+                        left: 1100px;
+                        top:15px;
+                        background: #FFDD04;
+                                        cursor: pointer;
+                                        border-radius: 10px;
+                    }           
+
+                    .tbody5{
+                        position: absolute;
+                        width: 1223px;
+                        height: 65px;
+                        top: 317px;
+                        left:-1px;
+                        background: #FAFAFA;
+                        border: 1px solid #EDEDED;
+                        }
+                        #monkey5{
+                        position: absolute;
+                        left:5px;
+                        top: 20px;
+                        font-family: "FiraGO";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;    
+                        }
+                        #Emonkey5{
+                        position: absolute;
+                        left: -125px;
+                        top: 20px;
+                        font-family:"FiraGO";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;    
+                        }
+                        #Mobile5{
+                        position: absolute;
+                        left:393px;
+                        top: 20px;
+                        font-family:"FiraGO";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+                        }
+                        #Created5{
+                        position: absolute;
+                        left:591px;
+                        top:20px;
+                        font-family:"FiraGO";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+                        }
+                        #Updated5{
+                        position: absolute;
+                        left: 825px;
+                        top: 20px;
+                        font-family: 'FiraGO';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #000000;    
+                        }
+                       
+                        #delete5{
+                            font-weight: bold;
+                            border: none;
+                            position: absolute;
+                            width: 93px;
+                            height: 33px;
+                            left:997px;
+                            top:15px;
+                            background: #FF8271;
+                            cursor: pointer;
+                            border-radius: 10px;
+                        }
+                        #edit5{
+                            font-weight: bold;
+                            border: none;
+                            position: absolute;
+                            width: 93px;
+                            height: 33px;
+                            left: 1100px;
+                            top:15px;
+                            background: #FFDD04;
+                                        cursor: pointer;
+                                        border-radius: 10px;
+                        }           
+                        .tbody6{
+                            position: absolute;
+                            width: 1223px;
+                            height: 65px;
+                            top: 381px;
+                            left:-1px;
+                            background: #FAFAFA;
+                            border: 1px solid #EDEDED;
+                            }
+                            #monkey6{
+                            position: absolute;
+                            left:5px;
+                            top: 20px;
+                            font-family: "FiraGO";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #000000;    
+                            }
+                            #Emonkey6{
+                            position: absolute;
+                            left: -125px;
+                            top: 20px;
+                            font-family:"FiraGO";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #000000;    
+                            }
+                            #Mobile6{
+                            position: absolute;
+                            left:393px;
+                            top: 20px;
+                            font-family:"FiraGO";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #000000;
+                            }
+                            #Created6{
+                            position: absolute;
+                            left:591px;
+                            top:20px;
+                            font-family:"FiraGO";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 19px;
+                            color: #000000;
+                            }
+                            #Updated6{
+                            position: absolute;
+                            left: 825px;
+                            top: 20px;
+                            font-family: 'FiraGO';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #000000;    
+                            }
+                           
+                            #delete6{
+                                font-weight: bold;
+                                border: none;
+                                position: absolute;
+                                width: 93px;
+                                height: 33px;
+                                left:997px;
+                                top:15px;
+                                background: #FF8271;
+                                cursor: pointer;
+                                border-radius: 10px;
+                            }
+                            #edit6{
+                                font-weight: bold;
+                                border: none;
+                                position: absolute;
+                                width: 93px;
+                                height: 33px;
+                                left: 1100px;
+                                top:15px;
+                                background: #FFDD04;
+                                        cursor: pointer;
+                                        border-radius: 10px;
+                            }       
+                            .tbody7{
+                                position: absolute;
+                                width: 1223px;
+                                height: 65px;
+                                top: 445px;
+                                left:-1px;
+                                background: #FAFAFA;
+                                border: 1px solid #EDEDED;
+                                }
+                                #monkey7{
+                                position: absolute;
+                                left:5px;
+                                top: 20px;
+                                font-family: "FiraGO";
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #000000;    
+                                }
+                                #Emonkey7{
+                                position: absolute;
+                                left: -125px;
+                                top: 20px;
+                                font-family:"FiraGO";
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #000000;    
+                                }
+                                #Mobile7{
+                                position: absolute;
+                                left:393px;
+                                top: 20px;
+                                font-family:"FiraGO";
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #000000;
+                                }
+                                #Created7{
+                                position: absolute;
+                                left:591px;
+                                top:20px;
+                                font-family:"FiraGO";
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19px;
+                                color: #000000;
+                                }
+                                #Updated7{
+                                position: absolute;
+                                left: 825px;
+                                top: 20px;
+                                font-family: 'FiraGO';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                color: #000000;    
+                                }
+                               
+                                #delete7{
+                                    font-weight: bold;
+                                    border: none;
+                                    position: absolute;
+                                    width: 93px;
+                                    height: 33px;
+                                    left:997px;
+                                    top:15px;
+                                    background: #FF8271;
+                                    cursor: pointer;
+                                    border-radius: 10px;
+                                }
+                                #edit7{
+                                    font-weight: bold;
+                                    border: none;
+                                    position: absolute;
+                                    width: 93px;
+                                    height: 33px;
+                                    left: 1100px;
+                                    top:15px;
+                                    background: #FFDD04;
+                                        cursor: pointer;
+                                        border-radius: 10px;
+                                }           
+                                .tbody8{
+                                    position: absolute;
+                                    width: 1223px;
+                                    height: 65px;
+                                    top: 509px;
+                                    left:-1px;
+                                    background: #FAFAFA;
+                                    border: 1px solid #EDEDED;
+                                    }
+                                    #monkey8{
+                                    position: absolute;
+                                    left:5px;
+                                    top: 20px;
+                                    font-family: "FiraGO";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #000000;    
+                                    }
+                                    #Emonkey8{
+                                    position: absolute;
+                                    left: -125px;
+                                    top: 20px;
+                                    font-family:"FiraGO";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #000000;    
+                                    }
+                                    #Mobile8{
+                                    position: absolute;
+                                    left:393px;
+                                    top: 20px;
+                                    font-family:"FiraGO";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #000000;
+                                    }
+                                    #Created8{
+                                    position: absolute;
+                                    left:591px;
+                                    top:20px;
+                                    font-family:"FiraGO";
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                    color: #000000;
+                                    }
+                                    #Updated8{
+                                    position: absolute;
+                                    left: 825px;
+                                    top: 20px;
+                                    font-family: 'FiraGO';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    color: #000000;    
+                                    }
+                                   
+                                    #delete8{
+                                        font-weight: bold;
+                                        border: none;
+                                        position: absolute;
+                                        width: 93px;
+                                        height: 33px;
+                                        left:997px;
+                                        top:15px;
+                                        background: #FF8271;
+                                        cursor: pointer;
+                                        border-radius: 10px;
+                                    }
+                                    #edit8{
+                                        font-weight: bold;
+                                        border: none;
+                                        position: absolute;
+                                        width: 93px;
+                                        height: 33px;
+                                        left: 1100px;
+                                        top:15px;
+                                        background: #FFDD04;
+                                        cursor: pointer;
+                                        border-radius: 10px;
+                                    }               
